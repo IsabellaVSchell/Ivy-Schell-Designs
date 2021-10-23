@@ -1,0 +1,146 @@
+/* Fonts */
+@font-face {
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
+}
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+body {
+  font-family: HK Grotesk;
+  background-color: white;
+  text-align: center;
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  text-align: center;
+}
+
+h2 {
+  color: #2800FF;
+}
+
+/* Very light scaling for our illustration */
+.title {
+  color: #2800FF;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 105%;
+  margin: 0;
+}
+
+.project{
+  width: 40%;
+  
+}
+
+
+/* Button - Add it from the README instructions */
+button {
+  font-family: inherit;
+  font-size: 100%;
+  background: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+
+.marginright{
+  margin-right: 100px;
+}
+
+.navbar{
+  width: 100px;
+}
+
+.dropdown{
+  position:relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.Homeimg {
+  border-radius: 50%;
+  width: 150px;
+  float: left;
+}
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  display: flex;
+  justify content; space between;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-left: 80px;
+}
+
+
+@media (max-width: 1000px) {
+  .marginright{
+    margin-right: 0px;
+  }
+}
